@@ -66,7 +66,7 @@ i18n:
   incidentBack: ← Alle Störfälle
   pastIncidents: Störfälle
   pastIncidentsResolved: In $MINUTES Minuten bereinigt mit $POSTS Kommentar(en)
-  liveStatus: Status (live)
+  liveStatus: Status (alle 5min aktualisiert)
   overallUptime: "Anteil Uptime: $UPTIME"
   overallUptimeTitle: Anteil Uptime
   averageResponseTime: "Durchschnittl. Antwortzeit: $TIMEms"
