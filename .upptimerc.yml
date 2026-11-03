@@ -34,8 +34,8 @@ status-website:
   # logoUrl: https://mbachmay.github.io/EGeoSG-upptime/EGeo_SG_hell.svg # funktioniert
   logoUrl: https://raw.githubusercontent.com/mbachmay/EGeoSG-upptime/refs/heads/master/assets/EGeo_SG_hell.svg
   name: Status Kartenviewer
-  introTitle: "**Uptime Überwachungsdienst** der EGeo-SG Kartenviewer"
-  introMessage: Status und Historisierung der Kartenviewer. Benutzt GitHub Actions und Globalping mit Standort Schweiz. Erstellt mit [Upptime](https://github.com/upptime/upptime)
+  introTitle: "**Uptime-Überwachung** der EGeo-SG Kartenviewer"
+  introMessage: Status und Historisierung der Kartenviewer. Benutzt GitHub Actions und [Globalping](https://globalping.io/) mit Standort Schweiz. Erstellt mit [Upptime](https://github.com/upptime/upptime). Alle Angaben ohne Gewähr.
   navbar:
     # - title: Status
     #   href: /
@@ -48,29 +48,31 @@ status-website:
   faviconSvg: https://raw.githubusercontent.com/mbachmay/EGeoSG-upptime/refs/heads/master/assets/favicon_light.svg
 
 
+# internationalisation, status message customisation, README customisation
+# Commented out variables retain their default text
 i18n:
-  # internationalisation, status message customisation
   activeIncidents: Aktuelle Störungen
   allSystemsOperational: Alle Seiten sind verfügbar
   incidentReport: "Störfallbericht #$NUMBER →"
-  activeIncidentSummary: Eröffnet am $DATE mit $POSTS Einträgen
+  activeIncidentSummary: Eröffnet am $DATE mit $POSTS Kommentar(en)
   incidentTitle: Störfall $NUMBER
   incidentDetails: Einzelheiten zum Störfall
   incidentFixed: Bereinigt
   incidentOngoing: Aktuell
   incidentOpenedAt: Eröffnet um
   incidentClosedAt: Abgeschlossen um
-  # incidentViewOnGitHub: View and Subscribe on GitHub
-  # incidentCommentSummary: Posted at $DATE by $AUTHOR
-  # incidentBack: ← Back to all incidents
-  # pastIncidents: Past Incidents
-  # pastIncidentsResolved: Resolved in $MINUTES minutes with $POSTS posts
+  incidentViewOnGitHub: Auf GitHub ansehen
+  incidentCommentSummary: Kommentar vom $AUTHOR am $DATE
+  incidentBack: ← Alle Störfälle
+  pastIncidents: Störfälle
+  pastIncidentsResolved: In $MINUTES Minuten bereinigt mit $POSTS Kommentar(en)
   liveStatus: Status (live)
   overallUptime: "Anteil Uptime: $UPTIME"
   overallUptimeTitle: Anteil Uptime
   averageResponseTime: "Durchschnittl. Antwortzeit: $TIMEms"
   averageResponseTimeTitle: Durchschnittl. Antwortzeit
-  # sevelDayResponseTime: 7-day response time
+  sevelDayResponseTime: 7-Tage-Durchschnitt Antwortzeit # sic, version mit "seven" hinzugefügt nächste Zeile
+  sevenDayResponseTime: 7-Tage-Durchschnitt Antwortzeit
   responseTimeMs: Antwortzeit (ms)
   up: Verfügbar
   down: Nicht verfügbar
