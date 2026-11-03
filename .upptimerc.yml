@@ -22,7 +22,8 @@ status-website:
   # cname: demo.upptime.js.org
   baseUrl: /EGeoSG-upptime
   # logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeo_SG_hell.svg
-  logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/favicon_light.svg
+  # logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/favicon_light.svg
+  logoUrl: https://mbachmay.github.io/EGeoSG-upptime/EGeo_SG_hell.svg
   name: EGeoSG-Upptime
   introTitle: "**Checking** the dev viewer status."
   introMessage: Status page built using [Upptime](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
@@ -38,8 +39,8 @@ status-website:
   # theme: dark
   # faviconSvg: https://dev-map.geo.sg.ch/viewer/assets/favicon/favicon.svg
   # faviconSvg: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/favicon_light.svg
-  # faviconSvg: https://mbachmay.github.io/EGeoSG-upptime/favicon_light.svg
-  faviconSvg: https://$OWNER.github.io/$REPO/favicon_light.svg
+  faviconSvg: https://mbachmay.github.io/EGeoSG-upptime/favicon_light.svg
+  # faviconSvg: https://$OWNER.github.io/$REPO/favicon_light.svg
 
 
 i18n:
