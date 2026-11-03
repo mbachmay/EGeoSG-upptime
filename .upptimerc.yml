@@ -33,7 +33,8 @@ status-website:
       href: https://github.com/$OWNER/$REPO
     - title: Viewer
       href: https://dev-map.geo.sg.ch/viewer/
-  themeUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeoSG-theme.css
+  # themeUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeoSG-theme.css
+  theme: dark
   # faviconSvg: https://dev-map.geo.sg.ch/viewer/assets/favicon/favicon.svg
   faviconSvg: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/favicon_light.svg
 
