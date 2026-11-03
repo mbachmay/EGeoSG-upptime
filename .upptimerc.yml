@@ -7,6 +7,14 @@ sites:
     url: https://dev-map.geo.sg.ch/viewer/
     type: globalping
     location: switzerland
+  - name: MigrationsViewer
+    url: https://dev-map.geo.sg.ch/migration/
+    type: globalping
+    location: switzerland
+  - name: Prod Viewer
+    url: https://map.geo.sg.ch/viewer
+    type: globalping
+    location: switzerland
   # - name: Google
   #   url: https://www.google.com
   # - name: Wikipedia
@@ -25,15 +33,15 @@ status-website:
   # logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeo_SG_hell.svg # URL wird nicht korrekt aufgelöst
   # logoUrl: https://mbachmay.github.io/EGeoSG-upptime/EGeo_SG_hell.svg # funktioniert
   logoUrl: https://raw.githubusercontent.com/mbachmay/EGeoSG-upptime/refs/heads/master/assets/EGeo_SG_hell.svg
-  name: EGeoSG-Upptime
-  introTitle: "**Checking** the dev viewer status."
-  introMessage: Status page built using [Upptime](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Status Kartenviewer
+  introTitle: "**Uptime Überwachungsdienst** der EGeo-SG Kartenviewer"
+  introMessage: Status und Historisierung der Kartenviewer. Benutzt GitHub Actions und Globalping mit Standort Schweiz. Erstellt mit [Upptime](https://github.com/upptime/upptime)
   navbar:
     # - title: Status
     #   href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-    - title: Viewer
+    - title: Dev Viewer
       href: https://dev-map.geo.sg.ch/viewer/
   themeUrl: https://mbachmay.github.io/EGeoSG-upptime/EGeoSG-theme.css
   # theme: dark
