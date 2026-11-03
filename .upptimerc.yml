@@ -21,9 +21,10 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /EGeoSG-upptime
-  # logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeo_SG_hell.svg
-  # logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/favicon_light.svg
-  logoUrl: https://mbachmay.github.io/EGeoSG-upptime/EGeo_SG_hell.svg
+  #### $OWNER und $REPO funktionieren hier nicht
+  # logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeo_SG_hell.svg # URL wird nicht korrekt aufgelöst
+  # logoUrl: https://mbachmay.github.io/EGeoSG-upptime/EGeo_SG_hell.svg # funktioniert
+  logoUrl: https://raw.githubusercontent.com/mbachmay/EGeoSG-upptime/refs/heads/master/assets/EGeo_SG_hell.svg
   name: EGeoSG-Upptime
   introTitle: "**Checking** the dev viewer status."
   introMessage: Status page built using [Upptime](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
@@ -34,18 +35,101 @@ status-website:
       href: https://github.com/$OWNER/$REPO
     - title: Viewer
       href: https://dev-map.geo.sg.ch/viewer/
-  # themeUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeoSG-theme.css
   themeUrl: https://mbachmay.github.io/EGeoSG-upptime/EGeoSG-theme.css
   # theme: dark
-  # faviconSvg: https://dev-map.geo.sg.ch/viewer/assets/favicon/favicon.svg
-  # faviconSvg: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/favicon_light.svg
-  faviconSvg: https://mbachmay.github.io/EGeoSG-upptime/favicon_light.svg
-  # faviconSvg: https://$OWNER.github.io/$REPO/favicon_light.svg
+  faviconSvg: https://raw.githubusercontent.com/mbachmay/EGeoSG-upptime/refs/heads/master/assets/favicon_light.svg
 
 
 i18n:
   # internationalisation, status message customisation
+  activeIncidents: Aktuelle Störungen
+  allSystemsOperational: Alle Seiten sind verfügbar
+  incidentReport: "Störfallbericht #$NUMBER →"
+  activeIncidentSummary: Eröffnet am $DATE mit $POSTS Einträgen
+  incidentTitle: Störfall $NUMBER
+  incidentDetails: Einzelheiten zum Störfall
+  incidentFixed: Bereinigt
+  incidentOngoing: Aktuell
+  incidentOpenedAt: Eröffnet um
+  incidentClosedAt: Abgeschlossen um
+  # incidentViewOnGitHub: View and Subscribe on GitHub
+  # incidentCommentSummary: Posted at $DATE by $AUTHOR
+  # incidentBack: ← Back to all incidents
+  # pastIncidents: Past Incidents
+  # pastIncidentsResolved: Resolved in $MINUTES minutes with $POSTS posts
+  liveStatus: Status (live)
+  overallUptime: "Anteil Uptime: $UPTIME"
+  overallUptimeTitle: Anteil Uptime
+  averageResponseTime: "Durchschnittl. Antwortzeit: $TIMEms"
+  averageResponseTimeTitle: Durchschnittl. Antwortzeit
+  # sevelDayResponseTime: 7-day response time
+  responseTimeMs: Antwortzeit (ms)
+  up: Verfügbar
+  down: Nicht verfügbar
+  degraded: Degradiert
+  # ms: ms
+  # loading: Loading
+  # navGitHub: GitHub
+  # footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org)
+  # rateLimitExceededTitle: Rate limit exceeded
+  # rateLimitExceededIntro: You have exceeded the number of requests you can do in an hour, so you'll have to wait before accessing this website again. Alternately, you can add a GitHub Personal Access Token to continue to use this website.
+  # rateLimitExceededWhatDoesErrorMean: What does this error mean?
+  # rateLimitExceededErrorMeaning: This website uses the GitHub API to access real-time data about our websites' status. By default, GitHub allows each IP address 60 requests per hour, which you have consumed.
+  # rateLimitExceededErrorHowCanFix: How can I fix it?
+  # rateLimitExceededErrorFix: You can wait for another hour and your IP address' limit will be restored. Alternately, you can add your GitHub Personal Access Token, which gives you an additional 5,000 requests per hour.
+  # rateLimitExceededGeneratePAT: Learn how to generate a Personal Access Token
+  # rateLimitExceededHasSet: You have a personal access token set.
+  # rateLimitExceededRemoveToken: Remove token
+  # rateLimitExceededGitHubPAT: GitHub Personal Access Token
+  # rateLimitExceededCopyPastePAT: Copy and paste your token
+  # rateLimitExceededSaveToken: Save token
+  # errorTitle: An error occurred
+  # errorIntro: An error occurred in trying to get the latest status details.
+  # errorText: You can try again in a few moments.
+  # errorHome: Go to the homepage
+  # pastScheduledMaintenance: Past Scheduled Maintenance
+  # scheduledMaintenance: Scheduled Maintenance
+  # scheduledMaintenanceSummaryStarted: Started at $DATE for $DURATION minutes
+  # scheduledMaintenanceSummaryStarts: Starts at $DATE for $DURATION minutes
+  # startedAt: Started at
+  # startsAt: Starts at
+  # duration: Duration
+  # durationMin: $DURATION minutes
+  # incidentCompleted: Completed
+  # incidentScheduled: Scheduled
+  # duration24H: 24h
+  # duration7D: 7d
+  # duration30D: 30d
+  # duration1Y: 1y
+  # durationAll: all
   locale: de-CH
+  # ################ README options
+  # url: "URL"
+  # status: "Status"
+  # history: "History"
+  # responseTime: "Response Time"
+  # uptime: "Uptime"
+  # up: "🟩 Up"
+  # degraded: "🟨 Degraded"
+  # down: "🟥 Down"
+  # responseTimeGraphAlt: "Response time graph"
+  # ms: "ms"
+  # responseTime: "Response time"
+  # responseTimeDay: "24-hour response time"
+  # responseTimeWeek: "7-day response time"
+  # responseTimeMonth: "30-day response time"
+  # responseTimeYear: "1-year response time"
+  # uptime: "All-time uptime"
+  # uptimeDay: "24-hour uptime"
+  # uptimeWeek: "7-day uptime"
+  # uptimeMonth: "30-day uptime"
+  # uptimeYear: "1-year uptime"
+  # liveStatus: "Live Status"
+  # liveStatusHtmlComment: "<!--live status-->"
+  # allSystemsOperational: "🟩 All systems operational"
+  # degradedPerformance: "🟨 Degraded performance"
+  # completeOutage: "🟥 Complete outage"
+  # partialOutage: "🟧 Partial outage"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
