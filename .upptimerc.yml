@@ -21,7 +21,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /EGeoSG-upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeo_SG_hell.svg
   name: EGeoSG-Upptime
   introTitle: "**Checking** the dev viewer status."
   introMessage: Status page built using [Upptime](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
@@ -32,7 +32,7 @@ status-website:
       href: https://github.com/$OWNER/$REPO
     - title: Viewer
       href: https://dev-map.geo.sg.ch/viewer/
-  themeUrl: https://github.com/$OWNER/$REPO/assets/EGeoSG-theme.css
+  themeUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeoSG-theme.css
 
 i18n:
   # internationalisation, status message customisation
