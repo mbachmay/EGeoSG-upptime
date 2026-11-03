@@ -27,14 +27,14 @@ status-website:
   introTitle: "**Checking** the dev viewer status."
   introMessage: Status page built using [Upptime](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
-    - title: Status
-      href: /
+    # - title: Status
+    #   href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
     - title: Viewer
       href: https://dev-map.geo.sg.ch/viewer/
-  # themeUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeoSG-theme.css
-  theme: dark
+  themeUrl: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/EGeoSG-theme.css
+  # theme: dark
   # faviconSvg: https://dev-map.geo.sg.ch/viewer/assets/favicon/favicon.svg
   faviconSvg: https://raw.githubusercontent.com/$OWNER/$REPO/refs/heads/master/assets/favicon_light.svg
 
